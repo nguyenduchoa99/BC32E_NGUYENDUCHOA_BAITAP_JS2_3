@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container p-5">
+        <ul class="nav nav-pills d-flex justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#bai1">Bài 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#bai2">Bài 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#bai3">Bài 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#bai4">Bài 4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#bai5">Bài 5</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="bai1">
+                <div class="bai1 m-5 p-5 container">
+                    <h1>Bài 1: Tính tiền lương nhân viên</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input type="number" id="tienLuongMotNgay" class="form-control w-25 border border-dark"
+                            placeholder="Nhập lương một ngày" min="0">
+                        <input type="number" id="soNgayLam" class="form-control w-25 border border-dark" min="0"
+                            max="31" placeholder="Số ngày làm" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-primary" id="btnTinhLuong">Tính lương</button>
+                    </div>
+                    <div class="luong text-center p-5">
+                        <h3 id="tienLuong">
+                            Tiền lương nhận được là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="bai2">
+                <div class="bai2 m-5 p-5 container">
+                    <h1>Bài 2: Tính giá trị trung bình</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input type="number" id="number1" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số thứ 1" />
+                        <input type="number" id="number2" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số thứ 2" />
+                        <input type="number" id="number3" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số thứ 3" />
+                        <input type="number" id="number4" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số thứ 4" />
+                        <input type="number" id="number5" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số thứ 5" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-primary" id="btnTinhTrungBinh">Tính trung bình</button>
+                    </div>
+                    <div class="trungBinh text-center p-5">
+                        <h3 id="giaTriTrungBinh">
+                            Giá trị trung bình là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="bai3">
+                <div class="bai3 m-5 p-5 container">
+                    <h1>Bài 3: Quy đổi tiền</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input type="number" id="usd" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số tiền USD" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-primary" id="btnDoiTien">Quy đổi tiền</button>
+                    </div>
+                    <div class="tienDoi text-center p-5">
+                        <h3 id="tienDaDoi">
+                            Số tiền đổi được là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="bai4">
+                <div class="bai4 m-5 p-5 container">
+                    <h1>Bài 4: Tính chi vi và diện tích hình chữ nhật</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input type="number" id="chieuDai" class="form-control w-25 border border-dark"
+                            placeholder="Nhập chiều dài" />
+                        <input type="number" id="chieuRong" class="form-control w-25 border border-dark"
+                            placeholder="Nhập chiều rộng" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-primary" id="btnTinh">Tính</button>
+                    </div>
+                    <div class="tinhChuNhat text-center p-5">
+                        <h3 id="tinhHinhChuNhat">
+                            Diện tích là: ; Chu vi là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="bai5">
+                <div class="bai5 m-5 p-5 container">
+                    <h1>Bài 5: Tổng 2 ký số</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input type="number" id="so2KySo" class="form-control w-25 border border-dark"
+                            placeholder="Nhập số có 2 chữ số" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-primary" id="btnTong2KySo">Tính tổng</button>
+                    </div>
+                    <div class="tong2So text-center p-5">
+                        <h3 id="tong2KySo">
+                            Tổng 2 ký số là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

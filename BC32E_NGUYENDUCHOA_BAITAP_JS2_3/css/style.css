@@ -1,0 +1,133 @@
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+.nav-pills .nav-link {
+    color: #1a1d2d;
+    border: 1px solid #1a1d2d;
+    margin: 0 5px;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+.bai1{
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#tienLuongMotNgay{
+    margin-right: 10px;  
+}
+
+#btnTinhLuong{
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.luong{
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.bai2{
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#number1,
+#number2,
+#number3,
+#number4,
+#number5{
+    margin-right: 10px;
+}
+
+.bai2 #btnTinhTrungBinh{
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.trungBinh{
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.bai3{
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai3 #btnDoiTien {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.tienDoi{
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.bai4 {
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai4 #btnTinh {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+#chieuDai{
+    margin-right: 10px;
+}
+
+.tinhChuNhat{
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.bai5 {
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai5 #btnTong2KySo {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.tong2So {
+    border: 1px solid;
+    border-radius: 20px;
+}
